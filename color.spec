@@ -2,8 +2,8 @@ Summary:	ANSI coloring tool
 Summary(pl):	Narzêdzie do kolorowaia ANSI
 Name:		color
 Version:	1.1
-Release:	1
-License:	GPL
+Release:	2
+License:	GPL v2
 Group:		Applications/Console
 Source0:	http://runslinux.net/projects/color/%{name}-%{version}.tar.gz
 URL:		http://runslinux.net/projects.html
@@ -23,19 +23,17 @@ u¿ytkownikiem, zastêpuj±c je podstawianiem komend.
 %setup  -q
 
 %build
-%{__make}
+%{__make} CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 install color $RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf README CHANGELOG
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README CHANGELOG
 %attr(755,root,root) %{_bindir}/color
-%doc *.gz
