@@ -15,7 +15,7 @@ scripts by hiding the escape sequences through command substitution.
 
 %description -l pl
 Color jest wygodnym narzêdziem u³atwiaj±cym u¿ywanie kolorowania ANSI w 
-skryptach shellowych poprzez ukrycie sekwencji ANSI przed uzytkownikiem,
+skryptach shellowych poprzez ukrycie sekwencji ANSI przed u¿ytkownikiem,
 zastêpuj±c je podstawianiem komend.
 
 %prep
