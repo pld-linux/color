@@ -5,8 +5,6 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Applications/Console
-Group(de):	Applikationen/Konsole
-Group(pl):	Aplikacje/Konsola
 Source0:	http://runslinux.net/projects/color/color-1.1.tar.gz
 URL:		http://runslinux.net/projects.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
