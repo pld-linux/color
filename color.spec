@@ -6,6 +6,7 @@ Release:	2
 License:	GPL v2
 Group:		Applications/Terminal
 Source0:	http://runslinux.net/projects/color/%{name}-%{version}.tar.gz
+# Source0-md5:	9131623568926877389aa0f6b95d939d
 URL:		http://runslinux.net/projects.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
