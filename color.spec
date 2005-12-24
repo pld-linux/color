@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Applications/Terminal
 Source0:	http://runslinux.net/projects/color/%{name}-%{version}.tar.gz
 # Source0-md5:	9131623568926877389aa0f6b95d939d
-URL:		http://runslinux.net/projects.html
+URL:		http://runslinux.net/projects.html#color
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,7 +24,8 @@ u¿ytkownikiem, zastêpuj±c je podstawianiem komend.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags} -Wall"
+%{__make} \
+	CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
