@@ -25,6 +25,7 @@ u¿ytkownikiem, zastêpuj±c je podstawianiem komend.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -Wall"
 
 %install
@@ -38,5 +39,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README CHANGELOG
+%doc CHANGELOG README
 %attr(755,root,root) %{_bindir}/color
