@@ -1,13 +1,13 @@
 Summary:	ANSI coloring tool
 Summary(pl):	Narzêdzie do kolorowania ANSI
 Name:		color
-Version:	1.1
-Release:	4
+Version:	1.2
+Release:	1
 License:	GPL v2
 Group:		Applications/Terminal
 Source0:	http://runslinux.net/projects/color/%{name}-%{version}.tar.gz
-# Source0-md5:	9131623568926877389aa0f6b95d939d
-URL:		http://runslinux.net/projects.html#color
+# Source0-md5:	17938f68c0ad3060111446c34922fdf2
+URL:		http://runslinux.net/?page_id=10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
