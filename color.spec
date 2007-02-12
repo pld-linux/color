@@ -1,5 +1,5 @@
 Summary:	ANSI coloring tool
-Summary(pl.UTF-8):   Narzędzie do kolorowania ANSI
+Summary(pl.UTF-8):	Narzędzie do kolorowania ANSI
 Name:		color
 Version:	1.2
 Release:	1
