@@ -1,5 +1,5 @@
 Summary:	ANSI coloring tool
-Summary(pl):	Narzêdzie do kolorowania ANSI
+Summary(pl.UTF-8):   NarzÄ™dzie do kolorowania ANSI
 Name:		color
 Version:	1.2
 Release:	1
@@ -15,10 +15,10 @@ Color is a convenience tool to ease the use of ANSI coloring in your
 shell scripts by hiding the escape sequences through command
 substitution.
 
-%description -l pl
-Color jest wygodnym narzêdziem u³atwiaj±cym u¿ywanie kolorowania ANSI
+%description -l pl.UTF-8
+Color jest wygodnym narzÄ™dziem uÅ‚atwiajÄ…cym uÅ¼ywanie kolorowania ANSI
 w skryptach shellowych poprzez ukrycie sekwencji ANSI przed
-u¿ytkownikiem, zastêpuj±c je podstawianiem komend.
+uÅ¼ytkownikiem, zastÄ™pujÄ…c je podstawianiem komend.
 
 %prep
 %setup -q
